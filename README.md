@@ -1,1 +1,1 @@
-# CyberSecurity-PicoCTF-
+# CyberSecurity-PicoCTF
