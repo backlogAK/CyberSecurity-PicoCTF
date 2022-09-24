@@ -1,8 +1,9 @@
 1.  $ wget https://mercury.picoctf.net/static/33996e32dce022205a6a36f69aba56f0/flag --> Access in terminal --> Uploaded in shell
 2.  $ cat filename  --> All the contents of file will we shown
 3.  $ ls ---> All the files in the current directory.
-4.  $ rm -rf ---> Delete all files in current directory.
-5.  To delete a single file, use the rm or unlink command followed by the file name:
+4.  $ pwd  ---> Print the name of current directory.
+5.  $ rm -rf ---> Delete all files in current directory.
+6.  To delete a single file, use the rm or unlink command followed by the file name:
        
         --> $ unlink Ayush.txt
         --> $ rm Ayush.txt       ***** Both of this used to delete single file using name **********
