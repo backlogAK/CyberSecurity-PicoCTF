@@ -1,1 +1,49 @@
+1.  $ wget https://mercury.picoctf.net/static/33996e32dce022205a6a36f69aba56f0/flag --> Access in terminal --> Uploaded in shell
+2.  $ cat filename  --> All the contents of file will we shown
+3.  $ ls ---> All the files in the current directory.
+4.  $ rm -rf ---> Delete all files in current directory.
+5.  To delete a single file, use the rm or unlink command followed by the file name:
+       
+        --> $ unlink Ayush.txt
+        --> $ rm Ayush.txt       ***** Both of this used to delete single file using name **********
+        
+        --> If the file is write-protected, you will be prompted for confirmation, as shown below. To remove the file type y, and hit Enter. 
+             Otherwise, if the file is not write-protected, it will be deleted without prompting.
+             
+    To delete multiple files at once, use the rm command followed by the file names separated by space:
+    
+        --> $ rm Ayush1.txt Ayush2.txt Ayush3.txt
+        
+    You can also use a wildcard (*) and regular expansions to match multiple files. 
+    For example, to remove all .pdf files in the current directory, use the following command: 
+    
+        --> $ rm *.pdf
+        
+    Use the rm with the -i option to confirm each file before deleting it:
+    
+        --> $ rm -i filename(s)
+        
+     To remove files without prompting, even if the files are write-protected, pass the -f (force) option to the rm command:
+     
+        --> $ rm -f filename(s)
+        
+     You can also combine rm options. For example, to remove all .txt files in the current directory without a prompt in verbose mode, use the following command:
+      
+        --> $ rm -fv *.txt
+        
+6. How to Remove Directories (Folders):
+      In Linux, you can remove/delete directories with the rmdir and rm. 
+      
+      To remove an empty directory, use either rmdir or rm -d followed by the directory name:
+        
+        --> $ rm -d dirname
+        --> $ rmdir dirname     ******* Both of them used to delete empty directory *******
+        
+      To remove non-empty directories and all the files within them, use the rm command with the-r (recursive) option:
+      
+        --> $ rm -r dirname
+        
+      Same as with files, you can also use a wildcard (*) and regular expansions to match multiple directories.  
+        
+        
 
