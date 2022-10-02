@@ -60,6 +60,8 @@
               > to get rid of @ sign do this
               > :s/^@//g --> ctrl+shift+@ sign > this will automatically put ^@ in blue
               > you can not exit this like :q > after editing :wq! --> Try this, after editing your file, quit with this command: wq!. the ! means force the process, and when you combine it with wq that means force to save and quit.
+              
+--> cd / --> go to root directory              
     
         
         
