@@ -59,6 +59,7 @@
 --> p^@i^@c^@o^@C^@T^@F^@{^@a^@c^@0^@0^@7^@2^@c^@4^@2^@3^@e^@e^@1^@3^@b^@f^@c^@0^@b^@1^@6^@6^@a^@f^@7^@2^@e^@2^@5^@b^@6^@1^@}
               > to get rid of @ sign do this
               > :s/^@//g --> ctrl+shift+@ sign > this will automatically put ^@ in blue
+              > you can not exit this like :q > after editing :wq!
     
         
         
