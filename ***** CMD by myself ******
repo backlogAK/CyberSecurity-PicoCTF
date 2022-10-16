@@ -9,6 +9,8 @@ drwxrwxr-x 3 ayushak-picoctf ayushak-picoctf     42 Oct  2 18:22 _dolls.jpg.extr
 drwxrwxr-x 3 ayushak-picoctf ayushak-picoctf     42 Oct  2 18:42 _dolls.jpg-0.extracted
 -rw-r--r-- 1 root            root              4448 Oct  8 09:25 README.txt
 
+    $ ls -a  ---> All files are shown including hidden files (Better option if dealing with cyber security)   
+
 
 5.  $ pwd  ---> Print the name of current directory.
 6.  $ rm -rf ---> Delete all files in current directory.
